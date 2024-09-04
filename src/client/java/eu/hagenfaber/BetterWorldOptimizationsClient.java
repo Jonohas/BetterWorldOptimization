@@ -1,11 +1,8 @@
 package eu.hagenfaber;
 
-import eu.hagenfaber.handlers.HighlightPacketHandler;
-import eu.hagenfaber.handlers.HighlightPacketServerHandler;
 import net.fabricmc.api.ClientModInitializer;
 import net.fabricmc.fabric.api.client.networking.v1.ClientPlayNetworking;
 import net.fabricmc.fabric.api.networking.v1.PayloadTypeRegistry;
-import net.fabricmc.fabric.api.networking.v1.ServerPlayNetworking;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.Blocks;
 import net.minecraft.util.math.BlockPos;

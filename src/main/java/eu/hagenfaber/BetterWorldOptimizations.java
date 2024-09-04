@@ -1,17 +1,11 @@
 package eu.hagenfaber;
 
 import eu.hagenfaber.command.CommandManager;
-import eu.hagenfaber.command.CoordsCalculate;
-import eu.hagenfaber.handlers.HighlightPacketHandler;
 import net.fabricmc.api.ModInitializer;
 
 import net.fabricmc.fabric.api.command.v2.CommandRegistrationCallback;
-import net.fabricmc.fabric.api.networking.v1.ServerPlayNetworking;
-import net.minecraft.text.Text;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-
-import static com.mojang.brigadier.builder.LiteralArgumentBuilder.literal;
 
 public class BetterWorldOptimizations implements ModInitializer {
 	public static final String MOD_ID = "betterworldoptimizations";
